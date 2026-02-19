@@ -1,4 +1,5 @@
 Transaction
+
 It is the atomic unit of blockchain technology. A transaction generally means when someone sends or transfer something to someone else. So, it is basically a class which gives you the ability to create transaction objects.
 
 As, per the above context we can get the idea preety straight that in a transaction object we need some mandatory fields.
@@ -39,6 +40,7 @@ A sample of transaction in a blockchain
 
 
 Block
+
 Block is the 2nd most important component of a blockchain. A block is used to store multiple transaction inside of it.
 
 At first a block is formed by taking out some transaction from the mempool or the memorypool (where pending transactions are lying which not yet verified by a miner).
@@ -95,6 +97,7 @@ A sample of block in a blockchain
 
 
 Blockchain
+
 A blockchain is a chain of blocks. In simple words blockchain stores block inside of it and provides functionality to interact with the blocks.
 
 As you guessed, in a blockchain there is also some key fields availble. Let's look at those in a glace.
@@ -181,6 +184,7 @@ Sample of a complete blockchain inside the blockchain.json file
 
 
 WalletManager
+
 The WalletManager class is used to store and interact with users wallet and enable the real usecase of cryptocurrency inside the blockchain.
 
 It unlocks the feature for users to transfer, buy, sell and get their wallet's balance info on top of the blockchain.
